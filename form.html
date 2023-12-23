@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+<body>
+
+  <form>
+    <table>
+      <tr>
+        <td>
+          <label for="first-name">First Name:</label>
+          <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
+        </td>
+        <td>
+          <label for="last-name">Last Name:</label>
+          <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="gender">Gender:
+            <select id="gender" name="gender" required>
+              <option value="" disabled selected>Select your gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+          </label>
+        </td>
+        <td>
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        </td>
+        <td>
+          <label for="education-level">Education Level:</label>
+          <select id="education-level" name="education-level" required>
+            <option value="" disabled selected>Select your education level</option>
+            <option value="high-school">High School</option>
+            <option value="college">College</option>
+            <option value="graduate">Graduate</option>
+            <option value="other">Other</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="country">Country:
+            <select id="country" name="country" required>
+              <option value="" disabled selected>Select your country</option>
+              <option value="usa">USA</option>
+              <option value="canada">Canada</option>
+              <option value="uk">UK</option>
+              <!-- Add more countries as needed -->
+            </select>
+          </label>
+        </td>
+        <td>
+          <label for="state-city">State/City of Residence:</label>
+          <input type="text" id="state-city" name="state-city" placeholder="Enter your state or city" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="school">Choose School:
+            <select id="school" name="school" required>
+              <option value="" disabled selected>Select your school</option>
+              <option value="school1">School 1</option>
+              <option value="school2">School 2</option>
+              <option value="school3">School 3</option>
+              <!-- Add more schools as needed -->
+            </select>
+          </label>
+        </td>
+        <td>
+          <label for="course">Choose Course of Study:
+            <select id="course" name="course" required>
+              <option value="" disabled selected>Select your course of study</option>
+              <option value="course1">Course 1</option>
+              <option value="course2">Course 2</option>
+              <option value="course3">Course 3</option>
+              <!-- Add more courses as needed -->
+            </select>
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="how-heard">How did you hear about us?</label>
+          <input type="text" id="how-heard" name="how-heard" placeholder="Enter how you heard about us">
+        </td>
+        <td>
+          <label for="discount-code">Scholarship/Discount Code:</label>
+          <input type="text" id="discount-code" name="discount-code" placeholder="Enter your code if applicable">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <label>
+            <input type="checkbox" id="agree-terms" name="agree-terms" required>
+            By clicking Continue, I agree to the <a href="terms-of-use-link">Terms of Use</a> and acknowledge that I have read the <a href="privacy-policy-link">Privacy Policy</a>.
+          </label>
+        </td>
+      </tr>
+    </table>
+
+    <br> <!-- Add a line break for spacing -->
+
+    <input type="submit" value="Proceed">
+   <!-- Link to the About Me page -->
+   <p><a href="Index-about me.html">Go to About Me</a></p>
+  </form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
